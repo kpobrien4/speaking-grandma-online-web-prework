@@ -13,9 +13,9 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma
 if speak_to_grandma == .upcase
-  puts "HUH?! SPEAK UP, SONNY!"
+  return "HUH?! SPEAK UP, SONNY!"
 elsif speak_to_grandma ==  .downcase
-  puts "NO, NOT SINCE 1938!"
+  return "NO, NOT SINCE 1938!"
 elsif speak_to_grandma == "I LOVE YOU GRANDMA!"
-  puts "I LOVE YOU TOO PUMPKIN!"
+  return "I LOVE YOU TOO PUMPKIN!"
 end
