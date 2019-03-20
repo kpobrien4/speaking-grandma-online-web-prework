@@ -11,10 +11,12 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
-if phrase == "".upcase
+if "".upcase
   puts "HUH?! SPEAK UP, SONNY!"
-elsif phrase == "".downcase
+elsif "".downcase
   puts "NO, NOT SINCE 1938!"
-elsif phrase == "I LOVE YOU GRANDMA!"
+elsif "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU TOO PUMPKIN!"
 end
+
+phrase
